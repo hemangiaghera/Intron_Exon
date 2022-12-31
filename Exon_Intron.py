@@ -1,0 +1,5 @@
+genomic_dna = open("F:\AA\dna.FASTA").read()
+print("Total DNA fragment: " + genomic_dna)
+print("Exon1: " + genomic_dna[0:22])
+print("Intron1: " + genomic_dna[22:57])
+print("Exon2: " + genomic_dna[57: ])
